@@ -1,3 +1,7 @@
+h1:first-of-type {
+    display: none;
+}
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">

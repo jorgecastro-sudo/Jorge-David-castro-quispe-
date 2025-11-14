@@ -12,20 +12,16 @@
         font-size: 25px;
     }
     .header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 60vh;
-        background: url("https://raw.githubusercontent.com/Dayana-jpg/Dayana-Nicol-Verapinto-/2d18f720a69f2ec6cdbcf491110503a382fc7333/imagen.jpg") no-repeat center;
-        background-size: cover;
-        position: relative;
+        background-color: #4169E1; /* Azul Royal */
+        color: white;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        text-align: center;
     }
     .header h1 {
-        color: black;
-        text-align: center;
-        font-size: 100px;
-        padding: 20px;
-        position: absolute;
+        font-size: 50px;
+        margin: 0;
     }
     .datos-generales, .seccion-azul {
         background-color: #4169E1; /* Azul Royal */
@@ -68,6 +64,7 @@
 <body>
     <div class="header">
         <h1>Mi perfil</h1>
+        <div class="titulo-divisor"></div>
     </div>    
 
     <div class="datos-generales">
@@ -149,4 +146,3 @@
     </div>
 </body>
 </html>
-

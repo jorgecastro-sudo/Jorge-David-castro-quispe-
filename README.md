@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi perfil</title>
-    <style>
+<style>
     body {
         background-color: #318CE7; /* Azul Francia */
         font-family: 'Didot', serif;

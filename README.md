@@ -23,7 +23,7 @@
     .header h1 {
         color: black;
         text-align: center;
-        font-size: 40px;
+        font-size: 100px;
         padding: 20px;
         position: absolute;
     }
@@ -44,24 +44,30 @@
         background-color: #318CE7; /* Azul Francia */
         margin-bottom: 20px;
     }
-    .seccion img {
-        display: block;
-        margin: 0 auto 10px;
-        max-width: 100%;
-    }
     ul {
-        list-style: disc; /* Viñetas en forma de puntos */
-        padding-left: 40px; /* Espacio para que se vean bien */
+        list-style: disc;
+        padding-left: 40px;
     }
     ul li {
-        background: none; /* Elimina el corazón */
-        padding-left: 0;  /* Ajusta el texto */
+        background: none;
+        padding-left: 0;
+        margin-bottom: 8px;
+    }
+    a {
+        color: #FFFF99; /* Amarillo claro para contraste */
+        text-decoration: underline;
+    }
+    a:hover {
+        color: #FFFFFF;
+        background-color: #318CE7;
+        padding: 2px 4px;
+        border-radius: 5px;
     }
 </style>
 </head>
 <body>
     <div class="header">
-        <h1 style="font-size: 100px;">Mi perfil</h1>
+        <h1>Mi perfil</h1>
     </div>    
 
     <div class="datos-generales">
@@ -132,15 +138,15 @@
         </ul>
     </div>
 
-    <div class="seccion-azul" >
+    <div class="seccion-azul">
         <h2 class="titulo">Perfiles de Linkedln</h2>
         <div class="titulo-divisor"></div>
         <ul>
-    
-                <li><a href="https://www.linkedin.com/in/dayana-nicol-verapinto-romero-427120326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Docente - Ernesto Cuadros
-                <li><a href="https://www.linkedin.com/in/jos%C3%A9-luis-begazo-de-latorre-99b53959?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"> Docente - Jose luis Begazo 
-                <li><a href="https://www.linkedin.com/in/jesus-atencio-muchica-3bb31235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"> Docente - Jesus Atencion Muchica  
+            <li><a href="https://www.linkedin.com/in/dayana-nicol-verapinto-romero-427120326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Docente - Ernesto Cuadros</a></li>
+            <li><a href="https://www.linkedin.com/in/jos%C3%A9-luis-begazo-de-latorre-99b53959?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Docente - Jose Luis Begazo</a></li>
+            <li><a href="https://www.linkedin.com/in/jesus-atencio-muchica-3bb31235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Docente - Jesus Atencion Muchica</a></li>
         </ul>
     </div>
 </body>
 </html>
+

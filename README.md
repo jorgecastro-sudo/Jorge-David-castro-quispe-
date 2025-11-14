@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +12,7 @@
         font-size: 25px;
     }
     .header {
-        background-color: #4169E1; /* Azul Royal */
+        background-color: #000000; /* Negro */
         color: white;
         padding: 20px;
         margin: 20px auto;
@@ -23,7 +24,7 @@
         margin: 0;
     }
     .datos-generales, .seccion-azul {
-        background-color: #4169E1; /* Azul Royal */
+        background-color: #000000; /* Negro */
         color: white;
         padding: 20px;
         margin: 20px auto;

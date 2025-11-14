@@ -5,13 +5,13 @@
     <title>Mi perfil</title>
 <style>
     body {
-        background-color: #000000; /* Fondo de afuera: negro */
+        background-color: #aaaaaa; /* Fondo de afuera: gris claro */
         font-family: 'Didot', serif;
         color: aliceblue;
         font-size: 25px;
     }
     .header {
-        background-color: #4169E1; /* Azul Royal */
+        background-color: #15297c; /* Fondo interno: azul oscuro */
         color: white;
         padding: 20px;
         margin: 20px auto;
@@ -23,7 +23,7 @@
         margin: 0;
     }
     .datos-generales, .seccion-azul {
-        background-color: #4169E1; /* Azul Royal */
+        background-color: #15297c; /* Fondo interno: azul oscuro */
         color: white;
         padding: 20px;
         margin: 20px auto;

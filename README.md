@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -6,13 +5,13 @@
     <title>Mi perfil</title>
 <style>
     body {
-        background-color: #318CE7; /* Azul Francia */
+        background-color: #000000; /* Fondo de afuera: negro */
         font-family: 'Didot', serif;
         color: aliceblue;
         font-size: 25px;
     }
     .header {
-        background-color: #000000; /* Negro */
+        background-color: #4169E1; /* Azul Royal */
         color: white;
         padding: 20px;
         margin: 20px auto;
@@ -24,7 +23,7 @@
         margin: 0;
     }
     .datos-generales, .seccion-azul {
-        background-color: #000000; /* Negro */
+        background-color: #4169E1; /* Azul Royal */
         color: white;
         padding: 20px;
         margin: 20px auto;
@@ -146,3 +145,4 @@
     </div>
 </body>
 </html>
+
